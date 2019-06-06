@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextSwitcher
+        android:id="@+id/switcher"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/switcherradio1"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/switcher"
+        android:layout_height="wrap_content">
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/switcherradio2"
+        android:layout_margin="10dp"
+        android:layout_below="@id/switcherradio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/switcherradio3"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/switcherradio2"
+        android:layout_height="wrap_content">
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/switcherradio4"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/switcherradio3"
+        android:layout_height="wrap_content">
+    </TextSwitcher>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:id="@+id/radioGroup">
+    </RadioGroup>
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Ans1"-->
+                <!--android:id="@+id/radio1">-->
+            <!--</RadioButton>-->
+
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Ans2"-->
+                <!--android:id="@+id/radio2"-->
+                <!--android:layout_alignTop="@+id/radioGroup"-->
+                <!--/>-->
+
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Ans3"-->
+                <!--android:id="@+id/radio3"-->
+                <!--/>-->
+
+            <!--<RadioButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Ans4"-->
+                <!--android:id="@+id/radio4"-->
+                <!--/>-->
+        <!--</RadioGroup>-->
+
+
+
+
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pervious"
+        android:layout_weight="1"
+        android:id="@+id/btnprevious"/>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_weight="1"
+        android:id="@+id/btnnext"/>
+</LinearLayout>
+
+</RelativeLayout>
